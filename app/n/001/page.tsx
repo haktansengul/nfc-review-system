@@ -1,18 +1,18 @@
-export default function Home() {
+export default function BusinessPage() {
   return (
     <main className="min-h-screen bg-[#f5f5f5] px-5 py-10 text-[#222]">
       <div className="mx-auto w-full max-w-xl">
 
-        {/* İŞLETME PROFİLİ */}
+        {/* İŞLETME */}
         <section className="text-center">
 
           {/* Logo */}
-          <div className="mx-auto flex h-32 w-32 items-center justify-center overflow-hidden rounded-full bg-white shadow-md ring-4 ring-white">
-            <span className="text-4xl">☕</span>
+          <div className="mx-auto flex h-32 w-32 items-center justify-center rounded-full bg-white text-4xl shadow-md">
+            ☕
           </div>
 
           {/* İşletme adı */}
-          <h1 className="mt-6 text-4xl font-bold tracking-tight">
+          <h1 className="mt-6 text-4xl font-bold">
             ABC CAFE
           </h1>
 
@@ -23,17 +23,17 @@ export default function Home() {
 
         </section>
 
-        {/* ANA AKSİYONLAR */}
+        {/* ANA BUTONLAR */}
         <section className="mt-10">
 
-          {/* Google */}
+          {/* GOOGLE */}
           <a
             href="https://search.google.com/local/writereview?placeid=ChIJMUh7PGW3yhQRRCroH17lxU8"
             target="_blank"
             rel="noopener noreferrer"
             className="flex min-h-[82px] items-center gap-5 rounded-2xl bg-white px-6 shadow-md transition hover:scale-[1.01] hover:shadow-lg"
           >
-            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#f8f8f8] text-2xl">
+            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-gray-100 text-2xl">
               ⭐
             </div>
 
@@ -48,14 +48,14 @@ export default function Home() {
             </div>
           </a>
 
-          {/* Web Sitesi */}
+          {/* WEB SİTESİ */}
           <a
             href="https://www.google.com"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 flex min-h-[72px] items-center gap-5 rounded-2xl bg-white px-6 shadow-md transition hover:scale-[1.01] hover:shadow-lg"
           >
-            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#f8f8f8] text-2xl">
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-gray-100 text-2xl">
               🌐
             </div>
 
@@ -64,12 +64,12 @@ export default function Home() {
             </p>
           </a>
 
-          {/* Telefon */}
+          {/* TELEFON */}
           <a
             href="tel:+905321234567"
             className="mt-4 flex min-h-[72px] items-center gap-5 rounded-2xl bg-white px-6 shadow-md transition hover:scale-[1.01] hover:shadow-lg"
           >
-            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#f8f8f8] text-2xl">
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-gray-100 text-2xl">
               📞
             </div>
 
@@ -97,14 +97,14 @@ export default function Home() {
             <div className="h-px flex-1 bg-gray-300" />
           </div>
 
-          {/* Instagram */}
+          {/* INSTAGRAM */}
           <a
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
             className="flex min-h-[72px] items-center gap-5 rounded-2xl bg-white px-6 shadow-md transition hover:scale-[1.01] hover:shadow-lg"
           >
-            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[#f8f8f8] text-2xl">
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gray-100 text-2xl">
               ◎
             </div>
 
@@ -113,25 +113,9 @@ export default function Home() {
             </p>
           </a>
 
-          {/* Facebook */}
-          <a
-            href="https://facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-4 flex min-h-[72px] items-center gap-5 rounded-2xl bg-white px-6 shadow-md transition hover:scale-[1.01] hover:shadow-lg"
-          >
-            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[#f8f8f8] text-2xl">
-              f
-            </div>
-
-            <p className="text-xl font-semibold">
-              Facebook
-            </p>
-          </a>
-
         </section>
 
-        {/* ALT BİLGİ */}
+        {/* ALT */}
         <footer className="pb-6 pt-12 text-center">
           <p className="text-sm text-gray-400">
             NFC ile hızlı erişim
