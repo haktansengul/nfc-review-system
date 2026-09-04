@@ -7,13 +7,13 @@ export default function BusinessPage() {
         <section className="text-center">
 
           {/* Logo */}
-          <div className="mx-auto flex h-45 w-45 items-center justify-center bg-white shadow-md">
+            <div className="mx-auto flex h-[180px] w-[180px] items-center justify-center bg-white shadow-md">
             <img
-              src="/berber-ali.png"
-              alt="berber-ali"
-              className="h-full w-full object-contain"
+                src="/berber-ali.png"
+                alt="Berber Ali"
+                className="h-full w-full object-contain"
             />
-          </div>
+            </div>
 
           {/* İşletme adı */}
           <h1 className="mt-6 text-4xl font-bold">
