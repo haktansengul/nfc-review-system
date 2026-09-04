@@ -7,7 +7,7 @@ export default function BusinessPage() {
         <section className="text-center">
 
           {/* Logo */}
-            <div className="mx-auto flex h-[180px] w-[180px] items-center justify-center bg-white shadow-md">
+            <div className="mx-auto flex h-32 w-32 items-center justify-center rounded-full bg-white text-4xl shadow-md">
             <img
                 src="/berber-ali.png"
                 alt="Berber Ali"
