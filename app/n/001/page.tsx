@@ -13,7 +13,7 @@ export default function BusinessPage() {
 
           {/* İşletme adı */}
           <h1 className="mt-6 text-4xl font-bold">
-            ABC CAFE
+            ABC İŞLETMESİ
           </h1>
 
           {/* Açıklama */}
@@ -50,7 +50,7 @@ export default function BusinessPage() {
 
           {/* WEB SİTESİ */}
           <a
-            href="https://www.google.com"
+            href="https://airep.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 flex min-h-[72px] items-center gap-5 rounded-2xl bg-white px-6 shadow-md transition hover:scale-[1.01] hover:shadow-lg"
