@@ -7,13 +7,17 @@ export default function BusinessPage() {
         <section className="text-center">
 
           {/* Logo */}
-          <div className="mx-auto flex h-32 w-32 items-center justify-center rounded-full bg-white text-4xl shadow-md">
-            ☕
+          <div className="mx-auto flex h-45 w-45 items-center justify-center bg-white shadow-md">
+            <img
+              src="/eczane-deniz.png"
+              alt="Eczane Deniz"
+              className="h-full w-full object-contain"
+            />
           </div>
 
           {/* İşletme adı */}
           <h1 className="mt-6 text-4xl font-bold">
-            DENIZ ECZANESI
+            Eczane Deniz
           </h1>
 
           {/* Açıklama */}
