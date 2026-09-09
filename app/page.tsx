@@ -22,7 +22,7 @@ export default function Home() {
         {/* ANA BUTON */}
         <section className="mt-8">
           <a
-            href="https://wa.me/905063860958"
+            href="tel:+02128556634"
             target="_blank"
             rel="noopener noreferrer"
             className="flex min-h-[64px] items-center justify-center rounded-2xl bg-black px-6 text-lg font-bold text-white shadow-lg transition hover:scale-[1.01]"
