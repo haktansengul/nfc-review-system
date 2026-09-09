@@ -3,16 +3,27 @@
 import { useState } from "react";
 
 export default function BusinessPage() {
-  const [copied, setCopied] = useState(false);
+  const [copiedIBAN, setCopiedIBAN] = useState(false);
+  const [copiedName, setCopiedName] = useState(false);
 
   const iban = "TR000000000000000000000000";
+  const accountName = "Haktan Eren Şengül";
 
   async function copyIBAN() {
     await navigator.clipboard.writeText(iban);
-    setCopied(true);
+    setCopiedIBAN(true);
 
     setTimeout(() => {
-      setCopied(false);
+      setCopiedIBAN(false);
+    }, 2000);
+  }
+
+  async function copyName() {
+    await navigator.clipboard.writeText(accountName);
+    setCopiedName(true);
+
+    setTimeout(() => {
+      setCopiedName(false);
     }, 2000);
   }
 
@@ -44,6 +55,7 @@ export default function BusinessPage() {
             className="flex min-h-[72px] items-center justify-between rounded-2xl bg-white px-5 shadow-sm transition hover:scale-[1.01] hover:shadow-md"
           >
             <div className="flex items-center gap-4">
+
               <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#f1f1ef] text-2xl">
                 🏷️
               </div>
@@ -57,6 +69,7 @@ export default function BusinessPage() {
                   Güncel araçlarımızı görüntüleyin
                 </p>
               </div>
+
             </div>
 
             <span className="text-xl text-gray-400">
@@ -89,32 +102,38 @@ export default function BusinessPage() {
               onClick={copyIBAN}
               className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl bg-[#1f1f1f] px-5 py-4 text-base font-semibold text-white transition hover:bg-black"
             >
-              {copied ? "✓ IBAN Kopyalandı" : "⧉ IBAN'ı Kopyala"}
+              {copiedIBAN
+                ? "✓ IBAN Kopyalandı"
+                : "⧉ IBAN'ı Kopyala"}
             </button>
 
           </div>
         </section>
 
-        {/* BİLGİ */}
+        {/* HESAP SAHİBİ */}
         <section className="mt-5 rounded-2xl bg-white p-5 shadow-sm">
-        <p className="text-xs font-semibold tracking-[0.18em] text-gray-400">
-            HESAP SAHİBİ
-        </p>
 
-        <div className="mt-3 flex items-center justify-between gap-4">
+          <p className="text-xs font-semibold tracking-[0.18em] text-gray-400">
+            HESAP SAHİBİ
+          </p>
+
+          <div className="mt-3 flex items-center justify-between gap-4">
+
             <p className="text-lg font-semibold">
-            Haktan Eren Şengül
+              {accountName}
             </p>
 
             <button
-            onClick={async () => {
-                await navigator.clipboard.writeText("Haktan Eren Şengül");
-            }}
-            className="shrink-0 rounded-xl bg-[#f6f6f4] px-4 py-3 text-sm font-semibold text-gray-700 transition hover:bg-gray-200"
+              onClick={copyName}
+              className="shrink-0 rounded-xl bg-[#f6f6f4] px-4 py-3 text-sm font-semibold text-gray-700 transition hover:bg-gray-200"
             >
-            ⧉ Kopyala
+              {copiedName
+                ? "✓ Kopyalandı"
+                : "⧉ Kopyala"}
             </button>
-        </div>
+
+          </div>
+
         </section>
 
         {/* FOOTER */}
