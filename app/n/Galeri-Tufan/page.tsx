@@ -97,13 +97,24 @@ export default function BusinessPage() {
 
         {/* BİLGİ */}
         <section className="mt-5 rounded-2xl bg-white p-5 shadow-sm">
-          <p className="text-xs font-semibold tracking-[0.18em] text-gray-400">
+        <p className="text-xs font-semibold tracking-[0.18em] text-gray-400">
             HESAP SAHİBİ
-          </p>
+        </p>
 
-          <p className="mt-3 text-lg font-semibold">
-            Ad Soyad
-          </p>
+        <div className="mt-3 flex items-center justify-between gap-4">
+            <p className="text-lg font-semibold">
+            Haktan Eren Şengül
+            </p>
+
+            <button
+            onClick={async () => {
+                await navigator.clipboard.writeText("Haktan Eren Şengül");
+            }}
+            className="shrink-0 rounded-xl bg-[#f6f6f4] px-4 py-3 text-sm font-semibold text-gray-700 transition hover:bg-gray-200"
+            >
+            ⧉ Kopyala
+            </button>
+        </div>
         </section>
 
         {/* FOOTER */}
