@@ -116,6 +116,15 @@ export default function Home() {
               </p>
             </div>
 
+            <div className="flex items-center gap-4 rounded-2xl bg-white p-5 shadow-md">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-black text-lg font-bold text-white">
+                5
+              </div>
+              <p className="font-semibold">
+                Tüm sosyal medya hesaplarınız tek bir yerde.
+              </p>
+            </div>
+
           </div>
         </section>
 
