@@ -106,7 +106,7 @@ export default function BusinessPage() {
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex min-h-[72px] items-center gap-5 rounded-2xl bg-white px-6 shadow-md transition hover:scale-[1.01] hover:shadow-lg"
+            className="mt-4 flex min-h-[72px] items-center gap-5 rounded-2xl bg-white px-6 shadow-md transition hover:scale-[1.01] hover:shadow-lg"
           >
             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gray-100 text-2xl">
               ◎
