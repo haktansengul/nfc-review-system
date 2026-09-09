@@ -22,7 +22,7 @@ export default function Home() {
         {/* ANA BUTON */}
         <section className="mt-8">
           <a
-            href="https://wa.me/905321234567"
+            href="https://wa.me/905063860958"
             target="_blank"
             rel="noopener noreferrer"
             className="flex min-h-[64px] items-center justify-center rounded-2xl bg-black px-6 text-lg font-bold text-white shadow-lg transition hover:scale-[1.01]"
@@ -131,7 +131,7 @@ export default function Home() {
           </p>
 
           <a
-            href="https://wa.me/905321234567"
+            href="https://wa.me/905063860958"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 block rounded-2xl bg-white px-6 py-4 text-lg font-bold text-black transition hover:scale-[1.01]"
