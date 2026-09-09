@@ -90,54 +90,55 @@ export default function BusinessPage() {
 
         </section>
 
-        {/* SOSYAL MEDYA */}
-        <section className="mt-12">
+       {/* SOSYAL MEDYA */}
+<section className="mt-12">
 
-          <div className="mb-5 flex items-center gap-4">
-            <h2 className="text-xl font-bold">
-              Sosyal Medya
-            </h2>
+  <div className="mb-5 flex items-center gap-4">
+    <h2 className="text-xl font-bold">
+      Sosyal Medya
+    </h2>
 
-            <div className="h-px flex-1 bg-gray-300" />
-          </div>
+    <div className="h-px flex-1 bg-gray-300" />
+  </div>
 
-          {/* INSTAGRAM */}
-          <a
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-4 flex min-h-[72px] items-center gap-5 rounded-2xl bg-white px-6 shadow-md transition hover:scale-[1.01] hover:shadow-lg"
-          >
-            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gray-100 text-2xl">
-              ◎
-            </div>
+  {/* SOSYAL MEDYA BUTONLARI */}
+  <div className="flex flex-col gap-4">
 
-            <p className="text-xl font-semibold">
-              Instagram
-            </p>
-          </a>
+    {/* INSTAGRAM */}
+    <a
+      href="https://instagram.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex min-h-[72px] items-center gap-5 rounded-2xl bg-white px-6 shadow-md transition hover:scale-[1.01] hover:shadow-lg"
+    >
+      <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gray-100 text-2xl">
+        ◎
+      </div>
 
+      <p className="text-xl font-semibold">
+        Instagram
+      </p>
+    </a>
 
-          {/* WHatsap */}
-          <a
-            href="https://wa.me/905063860958"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex min-h-[72px] items-center gap-5 rounded-2xl bg-white px-6 shadow-md transition hover:scale-[1.01] hover:shadow-lg"
-          >
-            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gray-100 text-2xl">
-              ◎
-            </div>
+    {/* WHATSAPP */}
+    <a
+      href="https://wa.me/905063860958"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex min-h-[72px] items-center gap-5 rounded-2xl bg-white px-6 shadow-md transition hover:scale-[1.01] hover:shadow-lg"
+    >
+      <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gray-100 text-2xl">
+        ◎
+      </div>
 
-            <p className="text-xl font-semibold">
-              WhatsApp
-            </p>
-          </a>
+      <p className="text-xl font-semibold">
+        WhatsApp
+      </p>
+    </a>
 
+  </div>
 
-        </section>
-
-
+</section>
         
 
         {/* ALT */}
