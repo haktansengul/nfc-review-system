@@ -63,6 +63,7 @@ const menu = [
 
 export default function MenuPage() {
   return (
+    // ANA SAYFA ARKA PLAN RENGİ
     <main className="min-h-screen bg-[#171512] px-5 py-8 text-[#f5f1e8]">
       <div className="mx-auto w-full max-w-md">
 
@@ -76,15 +77,21 @@ export default function MenuPage() {
           />
 
           <div className="mt-5 flex items-center justify-center gap-3">
+
+            {/* BAŞLIK YANLARINDAKİ ÇİZGİ RENGİ */}
             <div className="h-px w-10 bg-[#6b5334]" />
 
+            {/* MENÜ BAŞLIK YAZI RENGİ */}
             <h1 className="text-3xl font-bold tracking-tight">
               Menü
             </h1>
 
+            {/* BAŞLIK YANLARINDAKİ ÇİZGİ RENGİ */}
             <div className="h-px w-10 bg-[#6b5334]" />
+
           </div>
 
+          {/* ÜST AÇIKLAMA YAZI RENGİ */}
           <p className="mt-3 text-sm text-[#918a7e]">
             Lezzetlerimizi keşfedin
           </p>
@@ -100,12 +107,15 @@ export default function MenuPage() {
               {/* KATEGORİ BAŞLIĞI */}
               <div className="mb-5 flex items-center gap-3">
 
+                {/* KATEGORİ YAN ÇİZGİ RENGİ */}
                 <div className="h-px flex-1 bg-[#3d372f]" />
 
+                {/* KATEGORİ BAŞLIK YAZI RENGİ */}
                 <h2 className="text-xs font-bold tracking-[0.22em] text-[#c19d69]">
                   {section.category}
                 </h2>
 
+                {/* KATEGORİ YAN ÇİZGİ RENGİ */}
                 <div className="h-px flex-1 bg-[#3d372f]" />
 
               </div>
@@ -116,6 +126,8 @@ export default function MenuPage() {
                 {section.items.map((item) => (
                   <div
                     key={item.name}
+
+                    // ÜRÜN KUTUSU ARKA PLAN + KENARLIK + HOVER RENGİ
                     className="rounded-2xl border border-[#39332b] bg-[#211e19] px-5 py-4 transition hover:border-[#665137]"
                   >
                     <div className="flex items-start justify-between gap-5">
@@ -123,10 +135,12 @@ export default function MenuPage() {
                       {/* ÜRÜN */}
                       <div className="min-w-0">
 
+                        {/* ÜRÜN ADI YAZI RENGİ */}
                         <h3 className="text-[17px] font-semibold text-[#f4efe6]">
                           {item.name}
                         </h3>
 
+                        {/* ÜRÜN AÇIKLAMA YAZI RENGİ */}
                         <p className="mt-1.5 text-sm leading-5 text-[#8f887d]">
                           {item.description}
                         </p>
@@ -135,9 +149,12 @@ export default function MenuPage() {
 
                       {/* FİYAT */}
                       <div className="shrink-0 pt-0.5">
+
+                        {/* FİYAT YAZI RENGİ */}
                         <span className="text-[16px] font-bold text-[#d1ad76]">
                           {item.price}
                         </span>
+
                       </div>
 
                     </div>
@@ -156,6 +173,8 @@ export default function MenuPage() {
 
           <a
             href="/n/Kavurmaciii"
+
+            // GERİ DÖN BUTONU ARKA PLAN + KENARLIK + YAZI + HOVER
             className="flex min-h-[58px] items-center justify-center rounded-2xl border border-[#4a4033] bg-[#211e19] text-sm font-semibold text-[#c19d69] transition hover:border-[#765c3a] hover:bg-[#28231d]"
           >
             ← Ana Sayfaya Dön
@@ -166,12 +185,15 @@ export default function MenuPage() {
         {/* FOOTER */}
         <footer className="pb-6 pt-9 text-center">
 
+          {/* FOOTER ÇİZGİ RENGİ */}
           <div className="mx-auto mb-4 h-px w-16 bg-[#3d372f]" />
 
+          {/* FOOTER ANA YAZI RENGİ */}
           <p className="text-xs tracking-[0.18em] text-[#625b51]">
             KAVURMACIII
           </p>
 
+          {/* FOOTER ALT YAZI RENGİ */}
           <p className="mt-2 text-[11px] text-[#4f4a43]">
             NFC ile hızlı erişim
           </p>
