@@ -22,7 +22,7 @@ export default function Home() {
         {/* ANA BUTON */}
         <section className="mt-8">
           <a
-            href="tel:+02128556634"
+            href="tel:+905063860958"
             target="_blank"
             rel="noopener noreferrer"
             className="flex min-h-[64px] items-center justify-center rounded-2xl bg-black px-6 text-lg font-bold text-white shadow-lg transition hover:scale-[1.01]"
@@ -119,6 +119,15 @@ export default function Home() {
             <div className="flex items-center gap-4 rounded-2xl bg-white p-5 shadow-md">
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-black text-lg font-bold text-white">
                 5
+              </div>
+              <p className="font-semibold">
+                Menünüz veya kendi web sayfanız açlsın.
+              </p>
+            </div>
+
+            <div className="flex items-center gap-4 rounded-2xl bg-white p-5 shadow-md">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-black text-lg font-bold text-white">
+                6
               </div>
               <p className="font-semibold">
                 Tüm sosyal medya hesaplarınız tek bir yerde.
