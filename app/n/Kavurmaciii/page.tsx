@@ -175,7 +175,7 @@ export default function BusinessPage() {
 
           {/* E-POSTA */}
           <a
-            href="mailto:"
+            href="mailto:haktanerensengul@gmail.com"
 
             // İLETİŞİM KUTUSU ARKA PLAN + KENARLIK + HOVER
             className="flex min-h-[68px] items-center gap-4 rounded-2xl border border-[#3C6B52] bg-[#123A28] px-5 transition hover:border-[#C5A35A] hover:bg-[#1C5639]"
