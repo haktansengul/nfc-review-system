@@ -58,32 +58,32 @@ const menu = [
       {
         name: "Coca Cola",
         description: "330 ml",
-        price: "75 TL",
+        price: "85 TL",
       },
       {
         name: "Sprite",
         description: "330 ml",
-        price: "75 TL",
+        price: "85 TL",
       },
       {
         name: "Fanta",
         description: "330 ml",
-        price: "75 TL",
+        price: "85 TL",
       },
       {
         name: "Fuse Tea",
         description: "Limon / Şeftali - 350 ml",
-        price: "75 TL",
+        price: "85 TL",
       },
       {
         name: "Soda",
         description: "200 ml",
-        price: "40 TL",
+        price: "50 TL",
       },
       {
         name: "Şalgam",
         description: "Acılı / Acısız - 300 ml",
-        price: "60 TL",
+        price: "70 TL",
       },
       {
         name: "Su",
@@ -93,17 +93,17 @@ const menu = [
       {
         name: "Ayran Kutu",
         description: "285 ml",
-        price: "55 TL",
+        price: "60 TL",
       },
       {
         name: "Şişe Ayran",
         description: "245 ml",
-        price: "65 TL",
+        price: "70 TL",
       },
       {
         name: "Açık Ayran",
         description: "Taze servis",
-        price: "50 TL",
+        price: "60 TL",
       },
     ],
   },
