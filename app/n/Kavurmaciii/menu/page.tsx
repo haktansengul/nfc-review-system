@@ -103,7 +103,7 @@ const menu = [
       {
         name: "Açık Ayran",
         description: "Taze servis",
-        price: "60 TL",
+        price: "55 TL",
       },
     ],
   },
