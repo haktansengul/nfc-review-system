@@ -42,6 +42,17 @@ const menu = [
   },
 
   {
+    category: "EKSTRALAR",
+    items: [
+      {
+        name: "Patates Kızartması",
+        description: "Çıtır patates kızartması",
+        price: "150 TL",
+      },
+    ],
+  },
+
+  {
     category: "İÇECEKLER",
     items: [
       {
@@ -102,7 +113,7 @@ const menu = [
     items: [
       {
         name: "110 GR",
-        description: "Kavurma burger menü",
+        description: "Karamelize Soğan Salatalık Turşusu Çedar Peyniri Ve Patates ile Servis Edilir",
         price: "510 TL",
       },
     ],
@@ -114,7 +125,7 @@ const menu = [
       {
         name: "Ekmek Arası Kavurma Menü",
         description:
-          "Ekmek Arası Kavurma + Bol Meze + Turşu + İstediğin Soğuk İçecek + İstediğin Tatlı",
+          "Ekmek Arası Kavurma + Turşu + İstediğin Soğuk İçecek + İstediğin Tatlı",
         price: "499 TL",
       },
       {
@@ -130,24 +141,20 @@ const menu = [
     category: "TATLILAR",
     items: [
       {
-        name: "Sütlaç",
-        description: "Geleneksel fırın sütlaç",
-        price: "120 TL",
+        name: "Hayrabolu Tatlısı",
+        description: "Bol Tahin Ve Yer Fıstığı İle Birlikte Servis Edilir",
+        price: "140 TL",
       },
       {
-        name: "Baklava",
-        description: "Antep fıstıklı baklava",
-        price: "150 TL",
+        name: "Kavurma Sonrası Tatlısı",
+        description:
+          "Mevsim Yeşillikleri Ve Yer fıstığı İle Hazırlanan Eşsiz Lezzet",
+        price: "190 TL",
       },
       {
-        name: "Künefe",
-        description: "Sıcak ve çıtır künefe",
-        price: "180 TL",
-      },
-      {
-        name: "Katmer",
-        description: "Antep usulü katmer",
-        price: "170 TL",
+        name: "Profesyonel Sütlaç",
+        description: "Geleneksel Fırınlanmış Sütlaç",
+        price: "190 TL",
       },
     ],
   },
