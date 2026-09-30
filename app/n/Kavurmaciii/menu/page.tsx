@@ -119,23 +119,9 @@ const menu = [
     ],
   },
 
-  {
-    category: "MENÜ KAMPANYALARI",
-    items: [
-      {
-        name: "Ekmek Arası Kavurma Menü",
-        description:
-          "Ekmek Arası Kavurma + Turşu + İstediğin Soğuk İçecek + İstediğin Tatlı",
-        price: "499 TL",
-      },
-      {
-        name: "Kavurma Burger Tam Menü",
-        description:
-          "Kavurma Burger + Patates + Turşu + İstediğin Soğuk İçecek + İstediğin Tatlı",
-        price: "499 TL",
-      },
-    ],
-  },
+  
+    
+  
 
   {
     category: "TATLILAR",
