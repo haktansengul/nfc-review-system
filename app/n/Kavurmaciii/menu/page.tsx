@@ -5,17 +5,17 @@ const menu = [
       {
         name: "100 GR",
         description: "Ekmek arası kavurma",
-        price: "430 TL",
+        price: "460 TL",
       },
       {
         name: "150 GR",
         description: "Ekmek arası kavurma",
-        price: "595 TL",
+        price: "625 TL",
       },
       {
         name: "200 GR",
         description: "Ekmek arası kavurma",
-        price: "790 TL",
+        price: "820 TL",
       },
     ],
   },
@@ -26,17 +26,17 @@ const menu = [
       {
         name: "100 GR",
         description: "Porsiyon kavurma",
-        price: "510 TL",
+        price: "540 TL",
       },
       {
         name: "150 GR",
         description: "Porsiyon kavurma",
-        price: "680 TL",
+        price: "710 TL",
       },
       {
         name: "200 GR",
         description: "Porsiyon kavurma",
-        price: "890 TL",
+        price: "920 TL",
       },
     ],
   },
@@ -114,7 +114,7 @@ const menu = [
       {
         name: "110 GR",
         description: "Karamelize Soğan Salatalık Turşusu Çedar Peyniri Ve Patates ile Servis Edilir",
-        price: "510 TL",
+        price: "540 TL",
       },
     ],
   },
