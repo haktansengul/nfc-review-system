@@ -1,6 +1,6 @@
 export default function BusinessPage() {
   return (
-    <main className="min-h-screen bg-[#9C2007] px-5 py-10 text-[#222]">
+    <main className="min-h-screen bg-[#522224] px-5 py-10 text-[#222]">
       <div className="mx-auto w-full max-w-xl">
 
         {/* İŞLETME */}
