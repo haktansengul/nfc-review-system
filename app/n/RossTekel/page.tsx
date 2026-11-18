@@ -6,7 +6,7 @@ export default function BusinessPage() {
   const [copiedIBAN, setCopiedIBAN] = useState(false);
   const [copiedName, setCopiedName] = useState(false);
 
-  const iban = "TR1000062000068000066422";
+  const iban = "TR10 0006 2000 0680 0006 6422 76";
   const accountName = "Cengiz Medar";
 
   async function copyIBAN() {
