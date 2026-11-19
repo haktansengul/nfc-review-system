@@ -40,7 +40,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="flex min-h-[64px] items-center justify-center rounded-2xl bg-black px-6 text-lg font-bold text-white shadow-lg transition hover:scale-[1.01]"
           >
-            📞 Bilgi Alın
+            📞 Bilgi Alın - Haktan Şengül
           </a>
         </section>
 
@@ -51,7 +51,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="flex min-h-[64px] items-center justify-center rounded-2xl bg-black px-6 text-lg font-bold text-white shadow-lg transition hover:scale-[1.01]"
           >
-            📞 Bilgi Alın
+            📞 Bilgi Alın - Cengiz Soylak
           </a>
         </section>
 
