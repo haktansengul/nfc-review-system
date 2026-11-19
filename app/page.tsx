@@ -19,10 +19,34 @@ export default function Home() {
           </p>
         </section>
 
+        {/* INSTAGRAM */}
+        <section className="mt-7">
+          <a
+            href="https://www.instagram.com/sensoyteknoloji/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex min-h-[60px] items-center justify-center gap-3 rounded-2xl bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 px-6 text-lg font-bold text-white shadow-lg transition hover:scale-[1.01]"
+          >
+            <span className="text-2xl">📸</span>
+            Instagram'da Bizi Takip Edin
+          </a>
+        </section>
+
         {/* ANA BUTON */}
         <section className="mt-8">
           <a
             href="tel:+905063860958"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex min-h-[64px] items-center justify-center rounded-2xl bg-black px-6 text-lg font-bold text-white shadow-lg transition hover:scale-[1.01]"
+          >
+            📞 Bilgi Alın
+          </a>
+        </section>
+
+        <section className="mt-8">
+          <a
+            href="tel:+905523407127"
             target="_blank"
             rel="noopener noreferrer"
             className="flex min-h-[64px] items-center justify-center rounded-2xl bg-black px-6 text-lg font-bold text-white shadow-lg transition hover:scale-[1.01]"
