@@ -48,13 +48,7 @@ const menu = [
         name: "Patates Kızartması",
         description: "Çıtır patates kızartması",
         price: "160 TL",
-      },
-      
-        
-      
-      
-        
-      
+      }
     ],
   },
 
