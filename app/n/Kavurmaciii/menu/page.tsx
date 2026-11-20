@@ -5,17 +5,17 @@ const menu = [
       {
         name: "100 GR",
         description: "Ekmek arası kavurma",
-        price: "460 TL",
+        price: "475 TL",
       },
       {
         name: "150 GR",
         description: "Ekmek arası kavurma",
-        price: "625 TL",
+        price: "640 TL",
       },
       {
         name: "200 GR",
         description: "Ekmek arası kavurma",
-        price: "820 TL",
+        price: "835 TL",
       },
     ],
   },
@@ -26,17 +26,17 @@ const menu = [
       {
         name: "100 GR",
         description: "Porsiyon kavurma",
-        price: "540 TL",
+        price: "555 TL",
       },
       {
         name: "150 GR",
         description: "Porsiyon kavurma",
-        price: "710 TL",
+        price: "725 TL",
       },
       {
         name: "200 GR",
         description: "Porsiyon kavurma",
-        price: "920 TL",
+        price: "935 TL",
       },
     ],
   },
@@ -47,7 +47,17 @@ const menu = [
       {
         name: "Patates Kızartması",
         description: "Çıtır patates kızartması",
-        price: "150 TL",
+        price: "160 TL",
+      },
+      {
+        name: "Ekstra Pide",
+        description: "Taze Pide",
+        price: "20 TL",
+      },
+      {
+        name: "Ekstra Pilav",
+        description: "Nefis Pilav",
+        price: "100 TL",
       },
     ],
   },
@@ -58,32 +68,32 @@ const menu = [
       {
         name: "Coca Cola",
         description: "330 ml",
-        price: "85 TL",
+        price: "100 TL",
       },
       {
         name: "Sprite",
         description: "330 ml",
-        price: "85 TL",
+        price: "100 TL",
       },
       {
         name: "Fanta",
         description: "330 ml",
-        price: "85 TL",
+        price: "100 TL",
       },
       {
         name: "Fuse Tea",
         description: "Limon / Şeftali - 350 ml",
-        price: "85 TL",
+        price: "100 TL",
       },
       {
         name: "Soda",
         description: "200 ml",
-        price: "50 TL",
+        price: "60 TL",
       },
       {
         name: "Şalgam",
         description: "Acılı / Acısız - 300 ml",
-        price: "70 TL",
+        price: "85 TL",
       },
       {
         name: "Su",
@@ -93,17 +103,17 @@ const menu = [
       {
         name: "Ayran Kutu",
         description: "285 ml",
-        price: "60 TL",
+        price: "75 TL",
       },
       {
         name: "Şişe Ayran",
         description: "245 ml",
-        price: "70 TL",
+        price: "85 TL",
       },
       {
         name: "Açık Ayran",
         description: "Taze servis",
-        price: "55 TL",
+        price: "70 TL",
       },
     ],
   },
@@ -114,7 +124,7 @@ const menu = [
       {
         name: "110 GR",
         description: "Karamelize Soğan Salatalık Turşusu Çedar Peyniri Ve Patates ile Servis Edilir",
-        price: "540 TL",
+        price: "560 TL",
       },
     ],
   },
