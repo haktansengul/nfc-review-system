@@ -49,16 +49,12 @@ const menu = [
         description: "Çıtır patates kızartması",
         price: "160 TL",
       },
-      {
-        name: "Ekstra Pide",
-        description: "Taze Pide",
-        price: "20 TL",
-      },
-      {
-        name: "Ekstra Pilav",
-        description: "Nefis Pilav",
-        price: "100 TL",
-      },
+      
+        
+      
+      
+        
+      
     ],
   },
 
